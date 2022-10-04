@@ -1,0 +1,9 @@
+.composition__image {
+  background-image: url("../../../images/ingredient.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  margin: 0 auto;
+}

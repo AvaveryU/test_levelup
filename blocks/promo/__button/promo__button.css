@@ -7,13 +7,14 @@
   line-height: 24px;
   text-align: center;
   border: 0;
-  width: 100%;
+  width: 300px;
   padding: 20px 0;
   transition: 0.3 linear;
   opacity: 1;
   color: white;
   text-shadow: 0 0 5px #d7af0a;
   text-decoration: none;
+  align-self: center;
 }
 .promo__button:hover {
   opacity: 0.85;

@@ -11,3 +11,12 @@
 @import url(./blocks/promo/__item/promo__item.css);
 @import url(./blocks/promo/__description/promo__description.css);
 @import url(./blocks/promo/__button/promo__button.css);
+/* Блок Состав продукта */
+@import url(./blocks/composition/composition.css);
+@import url(./blocks/composition/__list/composition__list.css);
+@import url(./blocks/composition/__photo/composition__photo.css);
+@import url(./blocks/composition/__item/composition__item.css);
+@import url(./blocks/composition/__image/composition__image.css);
+@import url(./blocks/composition/__info/composition__info.css);
+/* Блок Отзывы */
+@import url(./blocks/reviews/reviews.css);

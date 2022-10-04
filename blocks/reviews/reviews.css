@@ -1,0 +1,32 @@
+.reviews {
+  max-width: 500px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+.reviews__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+.reviews__item {
+  margin-top: 20px;
+  border: 2px solid rgb(131, 31, 101);
+  border-radius: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.reviews__item:nth-of-type(1) {
+  margin-top: 0;
+}
+.reviews__personal {
+  background-image: url("../../images/ingredient.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  height: 80px;
+}
