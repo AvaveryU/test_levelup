@@ -1,0 +1,4 @@
+.promo__image {
+  object-fit: contain;
+  height: 100%;
+}

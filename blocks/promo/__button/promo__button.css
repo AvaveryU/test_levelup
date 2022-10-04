@@ -1,0 +1,21 @@
+.promo__button {
+  background: #6d1b6c;
+  margin-top: 50px;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 24px;
+  text-align: center;
+  border: 0;
+  width: 100%;
+  padding: 20px 0;
+  transition: 0.3 linear;
+  opacity: 1;
+  color: white;
+  text-shadow: 0 0 5px #d7af0a;
+  text-decoration: none;
+}
+.promo__button:hover {
+  opacity: 0.85;
+  cursor: pointer;
+}

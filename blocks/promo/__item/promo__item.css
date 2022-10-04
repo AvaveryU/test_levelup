@@ -1,0 +1,11 @@
+.promo__item {
+  margin-top: 50px;
+  border-bottom: ridge 5px #8e6390;
+  text-shadow: 0 0 3px #d7af0a;
+}
+.promo__item:nth-of-type(1) {
+  margin-top: 0;
+}
+.promo__item:nth-child(2n) {
+  padding-left: 80px;
+}

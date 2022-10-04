@@ -1,0 +1,13 @@
+@import url(./fonts/fonts.css);
+@import url(./blocks/page/page.css);
+
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__title/header__title.css);
+/* блок промо */
+@import url(./blocks/promo/promo.css);
+@import url(./blocks/promo/__image/promo__image.css);
+@import url(./blocks/promo/__photo/promo__photo.css);
+@import url(./blocks/promo/__list/promo__list.css);
+@import url(./blocks/promo/__item/promo__item.css);
+@import url(./blocks/promo/__description/promo__description.css);
+@import url(./blocks/promo/__button/promo__button.css);

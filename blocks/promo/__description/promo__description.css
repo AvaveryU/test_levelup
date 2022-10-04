@@ -1,0 +1,5 @@
+.promo__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
