@@ -1,0 +1,16 @@
+.reviews__item {
+  margin-top: 20px;
+  border: 2px solid rgb(131, 31, 101);
+  border-radius: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: fit-content(100px) 1fr;
+  column-gap: 10px;
+  align-items: center;
+  box-shadow: 0 5px 10px rgb(131, 31, 101);
+  background-color: rgb(194, 144, 179);
+}
+.reviews__item:nth-of-type(1) {
+  margin-top: 0;
+}

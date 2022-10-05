@@ -20,3 +20,15 @@
 @import url(./blocks/composition/__info/composition__info.css);
 /* Блок Отзывы */
 @import url(./blocks/reviews/reviews.css);
+@import url(./blocks/reviews/__figure/reviews__figure.css);
+@import url(./blocks/reviews/__item/reviews__item.css);
+@import url(./blocks/reviews/__list/reviews__list.css);
+@import url(./blocks/reviews/__personal/reviews__personal.css);
+@import url(./blocks/reviews/__text/reviews__text.css);
+@import url(./blocks/reviews/__text/reviews__text.css);
+@import url(./blocks/reviews/__title/reviews__title.css);
+/* Блок Промо */
+@import url(./blocks/promo/__info/promo__info.css);
+@import url(./blocks/promo/__block/promo__block.css);
+@import url(./blocks/promo/__element/promo__element.css);
+/* Блок Форма заказа */

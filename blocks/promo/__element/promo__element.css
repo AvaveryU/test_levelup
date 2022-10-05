@@ -1,0 +1,9 @@
+.promo__element {
+  display: inline;
+  margin-right: 50px;
+  color: #8e6390;
+  font-weight: 900;
+}
+.promo__element:nth-last-child(1) {
+  margin-right: 0;
+}

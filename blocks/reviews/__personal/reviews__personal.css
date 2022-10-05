@@ -1,0 +1,9 @@
+.reviews__personal {
+  background-color: rgb(208, 221, 185);
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  height: 80px;
+  width: 80px;
+}
