@@ -7,13 +7,20 @@
     <title>LevelUp. Продукт для повышения потенции</title>
     <link rel="stylesheet" href="./index.css" />
   </head>
-
   <body class="page">
     <header class="header">
-      <h1 class="header__title">&ldquo;LevelUp&rdquo; - продукт для повышения потенции</h1>
+      <h1 class="header__title">
+        &ldquo;LevelUp&rdquo; - продукт для повышения потенции
+      </h1>
     </header>
     <main class="content">
       <section class="promo">
+        <video autoplay muted loop class="promo__video">
+          <source
+            src="https://denis-creative.com/wp-content/uploads/2018/01/video.mp4"
+            type="video/mp4"
+          />
+        </video>
         <div class="promo__photo">
           <img src="./images/prod.png" class="promo__image" alt="продукт" />
         </div>
@@ -71,9 +78,11 @@
               <figcaption>elephant</figcaption>
             </figure>
             <span class="reviews__text">
-              большой отзыв большой отзыв отзыв большой отзыв отзыв большой отзыв большой отзыв отзыв большой отзыв
-              отзыв большой отзыв отзыв большой отзыв большой отзыв большой отзыв отзыв большой отзыв большой отзыв
-              большой отзыв отзыв большой отзыв большой отзыв отзыв отзыв большой отзыв большой отзыв большой отзыв
+              большой отзыв большой отзыв отзыв большой отзыв отзыв большой
+              отзыв большой отзыв отзыв большой отзыв отзыв большой отзыв отзыв
+              большой отзыв большой отзыв большой отзыв отзыв большой отзыв
+              большой отзыв большой отзыв отзыв большой отзыв большой отзыв
+              отзыв отзыв большой отзыв большой отзыв большой отзыв
             </span>
           </li>
           <li class="reviews__item">
@@ -82,7 +91,8 @@
               <figcaption>Mr.Pig</figcaption>
             </figure>
             <span class="reviews__text"
-              >большой отзыв большой отзыв большой отзыв большой отзыв большой отзыв большой отзыв</span
+              >большой отзыв большой отзыв большой отзыв большой отзыв большой
+              отзыв большой отзыв</span
             >
           </li>
           <li class="reviews__item">
@@ -90,7 +100,9 @@
               <div class="reviews__personal"></div>
               <figcaption>rabbit</figcaption>
             </figure>
-            <span class="reviews__text">большой отзыв большой отзыв большой отзыв большой отзыв </span>
+            <span class="reviews__text"
+              >большой отзыв большой отзыв большой отзыв большой отзыв
+            </span>
           </li>
         </ul>
       </section>
@@ -100,8 +112,8 @@
         </div>
         <div class="promo__description">
           <span class="promo__info"
-            >Какой хороший продукт Какой хороший продукт Какой хороший продукт Какой хороший продукт Какой хороший
-            продукт</span
+            >Какой хороший продукт Какой хороший продукт Какой хороший продукт
+            Какой хороший продукт Какой хороший продукт</span
           >
           <a href="#form" class="promo__button">Заказать</a>
         </div>
@@ -115,7 +127,9 @@
         <h2 class="header__title order__title">LevelUp</h2>
         <div class="order__info">
           <div class="order__counter">
-            <span class="order__text">Успей купить по новой цене! Осталось: </span>
+            <span class="order__text"
+              >Успей купить по новой цене! Осталось:
+            </span>
             <div id="counter" class="order__time">
               <span class="order__minutes"></span>
               <span class="order__seconds"></span>
@@ -131,27 +145,27 @@
         </div>
         <form name="form" class="order__form" id="form">
           <h2 class="order__label">Заполнить форму</h2>
-          <fieldset class="order__edit">
-            <input
-              type="text"
-              id="name"
-              class="order__input order__item_type_name"
-              name="namePerson"
-              placeholder="Пример: Иван"
-              minlength="2"
-              maxlength="40"
-              required
-            />
-            <input
-              type="number"
-              id="number"
-              class="order__input order__item_type_number"
-              name="numberPerson"
-              placeholder="Пример: 89111111111"
-              minlength="11"
-              required
-            />
-          </fieldset>
+          <!-- <fieldset class="order__edit"> -->
+          <input
+            type="text"
+            id="name"
+            class="order__input order__item_type_name"
+            name="namePerson"
+            placeholder="Пример: Иван"
+            minlength="2"
+            maxlength="40"
+            required
+          />
+          <input
+            type="number"
+            id="number"
+            class="order__input order__item_type_number"
+            name="numberPerson"
+            placeholder="Пример: 89111111111"
+            minlength="11"
+            required
+          />
+          <!-- </fieldset> -->
           <button type="submit" class="promo__button">Отправить</button>
         </form>
       </section>

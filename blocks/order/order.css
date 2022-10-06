@@ -1,5 +1,5 @@
 .order {
-  margin: 0 auto;
+  margin: 40px auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr 750px;

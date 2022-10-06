@@ -5,13 +5,14 @@
   gap: 20px;
   align-items: center;
   justify-items: center;
-  margin: 40px auto;
+  padding: 40px auto;
+  overflow: hidden;
+  position: relative;
 }
 @media screen and (max-width: 580px) {
   .promo {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 20px auto;
   }
 }

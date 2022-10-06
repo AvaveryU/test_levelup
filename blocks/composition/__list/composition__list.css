@@ -3,9 +3,13 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  margin-top: 20px;
 }
 @media screen and (max-width: 480px) {
   .composition__list {
     flex-direction: row;
+  }
+  .composition__list:nth-last-child(1) {
+    margin-top: 0;
   }
 }

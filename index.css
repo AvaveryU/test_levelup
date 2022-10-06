@@ -11,6 +11,7 @@
 @import url(./blocks/promo/__item/promo__item.css);
 @import url(./blocks/promo/__description/promo__description.css);
 @import url(./blocks/promo/__button/promo__button.css);
+@import url(./blocks/promo/__video/promo__video.css);
 /* Блок Состав продукта */
 @import url(./blocks/composition/composition.css);
 @import url(./blocks/composition/__list/composition__list.css);
