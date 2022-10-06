@@ -1,6 +1,7 @@
 .promo__button {
   background: #6d1b6c;
   margin-top: 50px;
+  margin-bottom: 20px;
   border-radius: 10px;
   font-weight: 500;
   font-size: 30px;
@@ -19,4 +20,12 @@
 .promo__button:hover {
   opacity: 0.85;
   cursor: pointer;
+}
+@media screen and (max-width: 780px) {
+  .promo__button {
+    width: 150px;
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 20px;
+  }
 }

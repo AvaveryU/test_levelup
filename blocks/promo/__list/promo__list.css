@@ -6,3 +6,9 @@
   font-size: 28px;
   color: #d7af0a;
 }
+@media screen and (max-width: 780px) {
+  .promo__list {
+    font-size: 16px;
+    font-weight: 400;
+  }
+}

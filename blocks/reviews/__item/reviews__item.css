@@ -14,3 +14,11 @@
 .reviews__item:nth-of-type(1) {
   margin-top: 0;
 }
+@media screen and (max-width: 500px) {
+  .reviews__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 16px;
+  }
+}

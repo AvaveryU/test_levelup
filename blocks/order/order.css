@@ -1,0 +1,18 @@
+.order {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 750px;
+  background: linear-gradient(360deg, #9e5bca, #cd7c65, #a4ae9a);
+  align-items: center;
+  justify-items: center;
+  min-height: 700px;
+}
+@media screen and (max-width: 780px) {
+  .order {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+}

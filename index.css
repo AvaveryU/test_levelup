@@ -32,3 +32,18 @@
 @import url(./blocks/promo/__block/promo__block.css);
 @import url(./blocks/promo/__element/promo__element.css);
 /* Блок Форма заказа */
+@import url(./blocks/order/order.css);
+@import url(./blocks/order/__counter/order__counter.css);
+@import url(./blocks/order/__text/order__text.css);
+@import url(./blocks/order/__title/order__title.css);
+@import url(./blocks/order/__time/order__time.css);
+@import url(./blocks/order/__info/order__info.css);
+@import url(./blocks/order/__edit/order__edit.css);
+@import url(./blocks/order/__label/order__label.css);
+@import url(./blocks/order/__input/order__input.css);
+@import url(./blocks/order/__new/order__new.css);
+@import url(./blocks/order/__old/order__old.css);
+@import url(./blocks/order/__price/order__price.css);
+@import url(./blocks/order/__form/order__form.css);
+/* футер */
+@import url(./blocks/footer/footer.css);

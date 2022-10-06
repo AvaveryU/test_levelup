@@ -1,0 +1,10 @@
+.order__price {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  color: #d7af0a;
+  margin: 20px auto;
+}

@@ -7,3 +7,11 @@
   justify-items: center;
   margin: 40px auto;
 }
+@media screen and (max-width: 580px) {
+  .promo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px auto;
+  }
+}

@@ -4,51 +4,82 @@
 }
 .composition__list:nth-of-type(1) .composition__item:nth-child(1)::after {
   border-bottom: 3px solid rgb(153, 84, 144);
-  width: 130px;
+  width: 200px;
   position: absolute;
-  bottom: -50px;
-  transform: rotate(45deg);
+  left: 220px;
+  transform: rotate(20deg);
   content: "";
 }
 .composition__list:nth-of-type(1) .composition__item:nth-child(2)::after {
   border-bottom: 3px solid rgb(153, 84, 144);
-  width: 90px;
+  width: 180px;
   position: absolute;
-  bottom: 15px;
-  left: 180px;
+  bottom: 70px;
+  left: 230px;
   content: "";
 }
 .composition__list:nth-of-type(1) .composition__item:nth-child(3)::after {
   border-bottom: 3px solid rgb(153, 84, 144);
-  width: 130px;
+  width: 200px;
   position: absolute;
-  bottom: 70px;
-  transform: rotate(-45deg);
+  top: 0;
+  left: 220px;
+  transform: rotate(-20deg);
   content: "";
 }
 .composition__list:nth-of-type(2) .composition__item:nth-child(1)::before {
   border-bottom: 3px solid rgb(153, 84, 144);
-  width: 130px;
+  width: 200px;
   position: absolute;
-  bottom: -50px;
-  left: -130px;
-  transform: rotate(135deg);
+  bottom: 30px;
+  left: -230px;
+  transform: rotate(160deg);
   content: "";
 }
 .composition__list:nth-of-type(2) .composition__item:nth-child(2)::before {
   border-bottom: 3px solid rgb(153, 84, 144);
-  width: 90px;
+  width: 180px;
   position: absolute;
-  bottom: 15px;
-  right: 180px;
+  bottom: 70px;
+  right: 230px;
   content: "";
 }
 .composition__list:nth-of-type(2) .composition__item:nth-child(3)::before {
   border-bottom: 3px solid rgb(153, 84, 144);
-  width: 130px;
+  width: 200px;
   position: absolute;
-  bottom: 70px;
-  left: -130px;
-  transform: rotate(45deg);
+  top: 0;
+  left: -230px;
+  transform: rotate(20deg);
   content: "";
+}
+@media screen and (max-width: 1340px) {
+  .composition__list:nth-of-type(1) .composition__item:nth-child(2n + 1)::after {
+    width: 150px;
+  }
+  .composition__list:nth-of-type(1) .composition__item:nth-child(2)::after {
+    width: 130px;
+  }
+  .composition__list:nth-of-type(2) .composition__item:nth-child(2n + 1)::before {
+    width: 150px;
+    left: -190px;
+  }
+  .composition__list:nth-of-type(2) .composition__item:nth-child(2)::before {
+    width: 130px;
+  }
+}
+@media screen and (max-width: 1160px) {
+  .composition__list:nth-of-type(1n) .composition__item:nth-child(1n)::after {
+    border: 0;
+    display: none;
+  }
+  .composition__list:nth-of-type(1n) .composition__item:nth-child(1n)::before {
+    border: 0;
+    display: none;
+  }
+}
+@media screen and (max-width: 680px) {
+  .composition__item {
+    font-size: 10px;
+  }
 }

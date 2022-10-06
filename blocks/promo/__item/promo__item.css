@@ -10,3 +10,13 @@
 .promo__item:nth-child(2n) {
   padding-left: 80px;
 }
+@media screen and (max-width: 780px) {
+  .promo__item {
+    margin-top: 20px;
+    border-bottom: ridge 2px #8e6390;
+    padding-bottom: 5px;
+  }
+  .promo__item:nth-child(2n) {
+    padding-left: 30px;
+  }
+}

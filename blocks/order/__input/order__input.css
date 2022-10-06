@@ -1,0 +1,15 @@
+.order__input {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  max-width: 300px;
+  min-height: 50px;
+  padding: 0;
+  margin: 30px 0 0;
+  outline: none;
+  position: relative;
+}
+.order__input::placeholder {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

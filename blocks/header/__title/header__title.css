@@ -4,3 +4,8 @@
   font-weight: 900;
   letter-spacing: 3px;
 }
+@media screen and (max-width: 960px) {
+  .header__title {
+    font-size: 20px;
+  }
+}
