@@ -9,6 +9,7 @@
   border-bottom: 3px solid rgb(153, 84, 144);
   width: 200px;
   position: absolute;
+  bottom: 30px;
   left: 220px;
   transform: rotate(20deg);
   content: "";
