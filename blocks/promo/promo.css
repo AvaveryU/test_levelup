@@ -6,7 +6,6 @@
   align-items: center;
   justify-items: center;
   padding: 40px auto;
-  overflow: hidden;
   position: relative;
 }
 @media screen and (max-width: 580px) {

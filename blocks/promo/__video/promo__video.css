@@ -1,9 +1,7 @@
 .promo__video {
-  top: 50%;
-  width: 1440px;
-  transform: translate(-50%, -50%);
-  opacity: 0.5;
-  left: 50%;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
   z-index: -1;
   position: absolute;
 }
